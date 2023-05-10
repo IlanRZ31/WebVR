@@ -1,0 +1,100 @@
+# Blender 3.4.1 MTL File: 'DAMO2.blend'
+# www.blender.org
+
+newmtl BenchConcreteBase
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /BenchConcreteBase_BaseColor_Lightmapped.png
+map_Ns /BenchConcreteBase_Roughness.png
+map_Bump -bm 1.000000 /BenchConcreteBase_Normal.png
+
+newmtl BenchWood
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /BenchWood_BaseColor_Lightmapped.png
+map_Ns /BenchWood_Roughness.png
+map_Bump -bm 1.000000 /BenchWood_Normal.png
+
+newmtl Ceilling
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Ceilling_BaseColor_Lightmapped.png
+map_Ns /Ceilling_Roughness.png
+map_Bump -bm 1.000000 /Ceilling_Normal.png
+
+newmtl CeillingWire
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /CeillingWire_BaseColor.png
+map_Ns /CeillingWire_Roughness.png
+map_Bump -bm 1.000000 /CeillingWire_Normal.png
+
+newmtl Emissive
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 3.000000 3.000000 3.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Floor
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Floor_BaseColor_Lightmapped.png
+map_Ns /Floor_Roughness.png
+map_Bump -bm 1.000000 /Floor_Normal.png
+
+newmtl Lamp
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Lamp_BaseColor.png
+map_Ns /Lamp_Roughness.png
+map_refl /Lamp_Metallic.png
+map_Bump -bm 0.500000 /Lamp_Normal.png
+
+newmtl Painting
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd -s 5 5 5 /Canvas_BaseColor.png
+
+newmtl Walls
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Walls_BaseColor_Lightmapped.png
+map_Ns /Walls_Roughness.png
+map_Bump -bm 1.000000 /Walls_Normal.png

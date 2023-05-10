@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tour Museo</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="my-model" src="models/DAMO2.obj"></a-asset-item>
+        <a-asset-item id="material" src="Textures/DAMO2.mtl"> </a-asset-item>
+    </a-assets>
+
+      <a-entity obj-model="obj: #my-model; mtl: #material"></a-entity>
+    </a-scene>
+  </body>
+</html>
